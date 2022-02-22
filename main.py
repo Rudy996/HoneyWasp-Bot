@@ -12,7 +12,7 @@ options.add_extension("MetaMask.crx")
 
 driver = webdriver.Chrome(executable_path=r"chromedriver\chromedriver.exe", options=options)
 try:
-    private = ("") # PrivateKey
+    private = ("") # Mnemonic
     passw = ("") #Пароль от метамаска
 
     time.sleep(2)
